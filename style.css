@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 @font-face{
-    font-family: beast;
-    src: url(ObelixPro-cyr.ttf);
+    font-family: mario;
+    src: url(Mario-Kart-DS.ttf);
 }
 .tit{
   padding-top: 8px;
     text-align: center;
     font-size: 23px;
     cursor: cell;
-    font-family: beast;
+    font-family: mario;
     background-color: rgb(255, 255, 255);
     height: 40px;
 }
@@ -23,6 +23,8 @@ body{background: rgb(255,255,255);
 }
 .ab{
   color: white;
+  font-family: mario;
+  font-size: 20px;
 }
 li a{
   margin-top: 30px;
@@ -73,13 +75,11 @@ a:hover{
   width: 3000px;
   color: white;
   font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   border: none;
   cursor: pointer;
   transition: 1s;
   margin: 100px;
   padding: 80px 0px;
-  font-weight: 900;
 }
 
 /* Style the dropdown content */
@@ -176,6 +176,7 @@ span{
   left: 0;
   bottom: 0;
   position: fixed;
+  font-family: mario;
 }
 li{
   display: inline;
@@ -193,24 +194,22 @@ li{
  font-weight: 300;
  padding: 40px 15px;
  justify-content: space-between;
+ font-family: mario;
 }
 #ftitle1{
   float: left;
   font-size: 15px;
-  font-weight: 200;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: mario;
 }
 #ftitle2{
   float: left;
   font-size: 15px;
-  font-weight: 200;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: mario;
 }
 #ftitle3{
   float: left;
   font-size: 15px;
-  font-weight: 200;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: mario;
 }
 #atitle{
   margin-left: 5px;
@@ -233,6 +232,7 @@ p{
   border-radius: 50px;
   border: 1px solid rgb(255, 255, 255);
   color: white;
+  font-family: mario;
 }
 #selectd{
   float: right;
@@ -244,6 +244,7 @@ p{
   font-weight: 500;
   border-radius: 50px;
   border: 1px solid black;
+  font-family: mario;
 }
 #selectl:hover{
   color: black;
