@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: beast;
+    src: url(ObelixPro-cyr.ttf);
+}
+.tit{
+  padding-top: 8px;
+    text-align: center;
+    font-size: 23px;
+    cursor: cell;
+    font-family: beast;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
+body{background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(38,38,38,1) 0%, rgba(18,18,18,1) 77%, rgba(0,0,0,1) 100%);
+} li{
+  display: inline;
+}
+.ab{
+  color: white;
+}
+li a{
+  margin-top: 30px;
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  transition: 1s;
+  border-bottom: 2px solid transparent;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+a:hover{
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+.dropdown {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+  transition: 1s;
+  background-color: rgba(24, 24, 24, 0.479);
+}
+#XII{
+  background: #00000056;
+}
+#XI{
+  background: #00000056;
+}
+#X{
+  background: #00000056;
+}
+
+.dropbtn {
+  border-radius: 20px 0px;
+  width: 3000px;
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  margin: 100px;
+  padding: 80px 0px;
+  font-weight: 900;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  text-align: center;
+  transition: 1s;
+  font-weight: 900;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  transition: 1s;
+}
+
+.dropdown:hover{
+  box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.541);
+}
+/* Show the dropdown content when the button is hovered over or clicked on */
+.dropdown:hover .dropdown-content {
+  box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, 0.349);
+  border-radius: 0px 10px;
+  background: rgba(155, 155, 155, 0.39);
+  display: block;
+  transition: 1s;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media only  screen and (max-width: 600px){
+
+  .tit{
+    font-size: 10px;
+    height: 40px;
+  }  
+  .ab{
+    font-size: 10px;
+    margin-left: -5px;
+  }
+  .dropbtn{
+    height: 10px;
+    padding: 90px 40px;
+    font-size: 25px;
+  }
+  .dropdown-content {
+    min-width: auto;
+  }
+    #nav{
+        height: 50px;
+        width :auto;
+        margin-top: -10px;
+        padding: 10px;
+    }
+    #nav li{
+        font-size: 15px;
+        padding: 15px;
+    }
+    a{
+        font-weight: 500;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+span{
+  font-weight: 200;
+  color: rgb(177, 177, 177);
+}
+#cpy{
+  background: rgb(22, 22, 26);
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+li{
+  display: inline;
+}
+#footer{
+  background: rgb(33, 33, 36);
+}
+.footer {
+ position: relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ color: white;
+ text-align: center;
+ font-weight: 300;
+ padding: 40px 15px;
+ justify-content: space-between;
+}
+#ftitle1{
+  float: left;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ftitle2{
+  float: left;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#ftitle3{
+  float: left;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#atitle{
+  margin-left: 5px;
+  float: left;
+  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(202, 202, 202);   
+}
+p{
+  display: inline-block;
+}
+#selectl{
+  float: right;
+  margin-right: 5px;
+  padding: 15px;
+  width: 80px;
+  transition: 0.6s;
+  background: transparent;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+#selectd{
+  float: right;
+  margin-right: 5px;
+  padding: 15px;
+  width: 80px;
+  transition: 0.6s;
+  background: transparent;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+#selectl:hover{
+  color: black;
+  background: rgb(255, 255, 255);
+}
+#selectd:hover{
+  color: white;
+  background: rgb(0, 0, 0);
+}
+.sbtn{
+  position: relative;
+  bottom: 60px;
+}
+@media only  screen and (max-width: 600px){
+  .sbtn{
+    position: relative;
+    bottom: 45px;
+  }
+  #selectd{
+    font-size: 10px;
+    padding: 5px;
+    width: auto;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #selectl{
+    font-size: 10px;
+    padding: 5px;
+    width: auto;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .rbr{
+      display: none;
+  }
+  #cpy{
+      font-size: 10px;
+      font-weight: 400;
+  }
+  #ftitle1{
+      font-size: 10px;
+  }
+  #ftitle2{
+      font-size: 10px;
+  }
+  #ftitle3{
+      font-size: 10px;
+  }
+  #atitle{
+      font-size: 8px;
+  }
+  .footer{
+      padding: 20px 10px;
+  }
+}
