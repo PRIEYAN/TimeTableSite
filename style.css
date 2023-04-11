@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition:0.5s;
 }
 @font-face{
     font-family: mario;
@@ -11,7 +12,7 @@
   padding-top: 8px;
     text-align: center;
     font-size: 23px;
-    cursor: cell;
+    cursor: default;
     font-family: mario;
     background-color: rgb(255, 255, 255);
     height: 40px;
@@ -21,8 +22,10 @@ body{background: rgb(255,255,255);
 } li{
   display: inline;
 }
-.ab{
+#abt{
   color: white;
+}
+.ab{
   font-family: mario;
   font-size: 20px;
 }
@@ -38,7 +41,6 @@ li a{
 a{
   transition: 1s;
   border-bottom: 2px solid transparent;
-  font-weight: 900;
   color: rgb(255, 255, 255);
 }
 a:hover{
@@ -159,7 +161,7 @@ a:hover{
 
 
 
-
+/*footer*/
 
 
 
@@ -176,7 +178,6 @@ span{
   left: 0;
   bottom: 0;
   position: fixed;
-  font-family: mario;
 }
 li{
   display: inline;
@@ -194,22 +195,18 @@ li{
  font-weight: 300;
  padding: 40px 15px;
  justify-content: space-between;
- font-family: mario;
 }
 #ftitle1{
   float: left;
   font-size: 15px;
-  font-family: mario;
 }
 #ftitle2{
   float: left;
   font-size: 15px;
-  font-family: mario;
 }
 #ftitle3{
   float: left;
   font-size: 15px;
-  font-family: mario;
 }
 #atitle{
   margin-left: 5px;
@@ -232,6 +229,7 @@ p{
   border-radius: 50px;
   border: 1px solid rgb(255, 255, 255);
   color: white;
+  font-size: 15px;
   font-family: mario;
 }
 #selectd{
@@ -244,6 +242,7 @@ p{
   font-weight: 500;
   border-radius: 50px;
   border: 1px solid black;
+  font-size: 15px; 
   font-family: mario;
 }
 #selectl:hover{
