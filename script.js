@@ -1,4 +1,4 @@
-
+alert('Whats up man!');
 function dark(){
     document.getElementById('bod').style.background= "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(38,38,38,1) 0%, rgba(18,18,18,1) 77%, rgba(0,0,0,1) 100%)";
     document.getElementById('footer').style.background='rgb(33, 33, 36)';
