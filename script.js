@@ -9,6 +9,7 @@ function dark(){
     document.getElementById('XII').style.background='#00000056';
     document.getElementById('XI').style.background='#00000056';
     document.getElementById('X').style.background='#00000056';
+    document.getElementById('abt').style.color='white';
 }
 function light(){
     document.getElementById('bod').style.background='linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(221,221,221,1) 50%, rgba(221,221,221,1) 100%)';
@@ -20,4 +21,5 @@ function light(){
     document.getElementById('XII').style.background='#ffffff56';
     document.getElementById('XI').style.background='#ffffff56';
     document.getElementById('X').style.background='#ffffff56';
+    document.getElementById('abt').style.color='black';
 }
