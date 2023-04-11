@@ -137,7 +137,8 @@ a:hover{
   }
   .dropbtn{
     height: 10px;
-    padding: 90px 40px;
+    width: 2000px;
+    padding: 100px 70px;
     font-size: 25px;
   }
   .dropdown-content {
